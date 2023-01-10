@@ -1,0 +1,36 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<h1>Welcome to Geaux Agile</h1>
+<h3>The home of the newest Agile workflow, built with 11ty</h3>
+<p>This project is in the early stages of work, so check back in later!</p>
+
+Here is a to do list that will hopefully brue=
+
+- [ ] Template for each initial, in-progress, planned, and done sprint/post.
+- [ ] Add pretty styling
+- [ ] Make sure code highlighting works
+- [ ] Add a log space/CMS as a place to work
+- [ ] New components for a kanban board and calendar
+- [ ] Pomodoro Timer
+- [ ] CLI tool that makes it easy to grab and drop tags
+
+{% set maxPosts = collections.posts.length | min(5) %}
+<h2>Here are some things I am currently working on:</h2>
+
+{% set postslist = collections.inprogress | head(-5) %}
+{% set postslistCounter = collections.inprogress | length %}
+{% include "postslist.njk" %}
+
+{% set maxPosts = collections.posts.length | min(5) %}
+<h2>Here are some things I still need to get started on:</h2>
+
+{% set postslist = collections.backlog | head(-5) %}
+{% set postslistCounter = collections.backlog | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

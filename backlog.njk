@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Backlog
+  order: 4
+---
+
+<h1>Backlog</h1>
+<h3>These are stories that haven't been started yet</h3>
+
+{% set postslist = collections.backlog %}
+{% include "postslist.njk" %}

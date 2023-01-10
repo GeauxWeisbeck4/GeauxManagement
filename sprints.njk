@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Sprints
+  order: 3
+---
+
+<h1>Sprints</h1>
+<h3>These are the sprints that are in progress as well as the sprints that have been completed already</h3>
+
+<h2>Current Sprint</h3>
+{% set sprintslist = collections.sprints %}
+{% include "sprintslist.njk" %}
