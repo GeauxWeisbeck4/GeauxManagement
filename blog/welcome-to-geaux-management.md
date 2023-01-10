@@ -3,7 +3,7 @@ title: Welcome to Geaux Management!
 description: Welcome to Geaux Management - learning about Management with Andrew Weisbeck and Section 4!
 date: 2023-01-10
 tags:
-  - backlog
+  - done
   - Week02
   - stories
 layout: layouts/post.njk

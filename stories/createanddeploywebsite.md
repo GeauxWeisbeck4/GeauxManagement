@@ -15,7 +15,10 @@ Create website, set it up, and deploy it to Netlify. Prepare design and start st
 # A ToDo List
 
 - [x] Create Website
-- [ ] Deploy Website
+- [x] Deploy Website
 - [ ] Plan website Design
 - [ ] Start Styling
 - [ ] Share Website
+
+## Notes
+- 9/10: Started website from GeauxAgile.js and began basics of setting up agile sprint system. Got
