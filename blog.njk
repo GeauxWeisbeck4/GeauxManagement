@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+permalink: /blog/
+eleventyNavigation:
+  key: Blog
+  order: 6
+---
+
+<h1>Blog</h1>
+<h3>These are my carefully crafted and curated posts about the Management Sprint!</h3>
+
+{% set postslist = collections.blog %}
+{% include "postslist.njk" %}

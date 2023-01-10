@@ -1,17 +1,17 @@
 {
-  "title": "Geaux Agile",
-  "url": "https://geauxagilejs.netlify.app/",
+  "title": "Geaux Management",
+  "url": "https://geauxmanagement.netlify.app/",
   "language": "en",
-  "description": "Geaux Agile JS is an implementation of agile methods to help you stay organized and innovate quickly",
+  "description": "Geaux Management is a website that I created to track my progress through my Section 4 journey.",
   "feed": {
-    "subtitle": "Innovate quickly, geaux agile.",
+    "subtitle": "Geaux Management by GeauxWeisbeck4",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://geauxagilejs.netlify.app"
+    "id": "https://geauxmanagement.netlify.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://geauxagilejs.netlify.app/feed/feed.json"
+    "url": "https://geauxmanagement.netlify.app/feed/feed.json"
   },
   "author": {
     "name": "Andrew Weisbeck",

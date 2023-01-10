@@ -1,7 +1,7 @@
 {
-  "name": "11steezytech-agile",
-  "version": "1.0.0",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "geaux-management",
+  "version": "1.0.1",
+  "description": "My website that follows my experience through the Management Sprint by Section 4.",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/geauxweisbeck4/11steezy.tech-agile.git"
+    "url": "git://github.com/geauxweisbeck4/GeauxManagement.git"
   },
   "author": {
     "name": "Andrew Weisbeck",
-    "email": "andrew.weisbeckn@gmail.com",
+    "email": "andrew.weisbeck@gmail.com",
     "url": "https://geauxweisbeck4.dev/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geauxweisbeck4/11steezy.tech-agile/issues"
+    "url": "https://github.com/geauxweisbeck4/geauxmanagement/issues"
   },
-  "homepage": "https://github.com/geauxweisbeck4/11steezy.tech-agile#readme",
+  "homepage": "https://github.com/geauxweisbeck4/geauxmanagement#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.0",
